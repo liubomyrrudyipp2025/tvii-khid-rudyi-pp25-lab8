@@ -25,7 +25,7 @@ python -m http.server 5503 --directory dist
 python -m unittest discover -s tests -v
 ```
 
-Перевірка перед push: npm run package:dist та git status.
+Перевірка перед push: тести Python, npm run package:dist та git status.
 
 ## Публікація
 
